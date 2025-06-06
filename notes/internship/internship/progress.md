@@ -35,7 +35,7 @@
 - all the motors stop in a cascaded downstream manner
 - need to implement cascaded upstream stop condition
 
-5 June
+##### 5 June
 - got the start and stop functionality working properly (without lamp)
 - saved this progress and started V4.1
 - implemented start/stop/low power condition 90% (there might be some edge cases)
@@ -52,3 +52,10 @@ some changes mentor asked:
 ----
 more changes:
 - add a carousel to the conveyors, something the objects can keep looping in
+
+##### 6 June
+- added git to the project
+- added different delay for different sized conveyors
+- changed memory elements (system state and standard parameter) to a datablock instead of using plc tags
+- saved the progress so far as V5.1
+- 
