@@ -58,4 +58,11 @@ more changes:
 - added different delay for different sized conveyors
 - changed memory elements (system state and standard parameter) to a datablock instead of using plc tags
 - saved the progress so far as V5.1
-- 
+- removed the use for current sensor on each conveyor -the conveyor runs for a fixed time when the preceding sensor detects an object
+- you can now start the system in low power mode
+- saved the progress and started V5.2
+-----
+more changes (or additions):
+- have two carousels now, and a divider which divides the baggage into a fixed ratio
+-----
+the stop condition needs some fixing

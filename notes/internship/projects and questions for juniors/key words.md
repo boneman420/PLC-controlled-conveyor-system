@@ -3,6 +3,11 @@
 - button debouncing circuit/code
 - make the GPIO pin sense touch
 - control a servo using a joystick, but the joystick should add and subtract from the position of the servo, not set the position ([Circuit design servo control - Tinkercad](https://www.tinkercad.com/things/hWg4q6TL2Gd/editel?returnTo=%2Fdashboard))(took half an hour to make)
+- 5 LEDs and a switch -they turn on from 0 to 5 when switch is flipped, but then from 5 to 0 when switch is turned off again ([Circuit design Sizzling Crift - Tinkercad](https://www.tinkercad.com/things/lHAs6exrSnM/editel?returnTo=%2Fdashboard))(half an hour)
+	- why shouldnt you use 0 and 1 pin of arduino in certain codes
+	- how did i make this button work without using a pulldown or pullup resistor
+	- use a button like a switch
+	- why use ! and not ~
 
 
 

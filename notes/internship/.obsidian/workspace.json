@@ -40,8 +40,23 @@
               "icon": "lucide-file",
               "title": "progress"
             }
+          },
+          {
+            "id": "5c159aa4151aede8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects and questions for juniors/key words.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "key words"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,10 +203,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb73b1844218e593",
+  "active": "5c159aa4151aede8",
   "lastOpenFiles": [
-    "internship/Practice project 1/the problem statement (Rev 3).md",
+    "random note.md",
     "internship/progress.md",
+    "internship/Practice project 1/the problem statement (Rev 3).md",
     "internship/Practice project 1/rants/June 6.md",
     "internship/Practice project 1/rants/June 5.md",
     "projects and questions for juniors/key words.md",
