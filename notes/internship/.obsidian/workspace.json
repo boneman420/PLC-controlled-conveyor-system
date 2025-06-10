@@ -4,31 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "2efb67196834d73a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e9959be94053c274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "internship/Practice project 1/the problem statement (Rev 3).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "the problem statement (Rev 3)"
-            }
-          }
-        ]
-      },
-      {
         "id": "0fda156e790950f1",
         "type": "tabs",
         "children": [
           {
             "id": "eb73b1844218e593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "internship/rants/June 10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "June 10"
+            }
+          },
+          {
+            "id": "2b1786bf57b7f8c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "random note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "random note"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "41fb507bd8c70f86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08ac57cb4c1b0680",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,23 +55,8 @@
               "icon": "lucide-file",
               "title": "progress"
             }
-          },
-          {
-            "id": "5c159aa4151aede8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "projects and questions for juniors/key words.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "key words"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,18 +203,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c159aa4151aede8",
+  "active": "08ac57cb4c1b0680",
   "lastOpenFiles": [
     "random note.md",
+    "internship/rants/June 10.md",
     "internship/progress.md",
+    "internship/rants/June 9.md",
+    "Pasted image 20250609170801.png",
+    "power distribution board/switching regulator.md",
+    "internship/Real task/Read C script.md",
+    "internship/Real task",
+    "projects and questions for juniors/questions.md",
+    "power distribution board/switching regulator",
     "internship/Practice project 1/the problem statement (Rev 3).md",
-    "internship/Practice project 1/rants/June 6.md",
-    "internship/Practice project 1/rants/June 5.md",
-    "projects and questions for juniors/key words.md",
+    "internship/rants/June 5.md",
     "projects and questions for juniors",
     "power distribution board",
-    "internship/Practice project 1/rants/June 4 rant.md",
-    "internship/Practice project 1/rants",
+    "internship/rants/June 4 rant.md",
+    "internship/rants",
     "internship/Practice project 1/the problem statement (Rev 2 (GPT)).md",
     "internship/Practice project 1/the problem statement (Rev 1).md",
     "internship/Practice project 1/details and specifications.md",

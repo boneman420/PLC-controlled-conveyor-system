@@ -66,3 +66,23 @@ more changes (or additions):
 - have two carousels now, and a divider which divides the baggage into a fixed ratio
 -----
 the stop condition needs some fixing
+
+##### 9 June
+- checked out sorting mechanisms, pop up wheel sorter is the best for simulation use
+- TASK: C script for a system management application in Guwahati airport
+- manager told ill get to do a presentation of my project by the end of my internship
+
+
+##### 10 June
+- fell back to ap19 V5.2 and factoryIO V2 because i was getting too distracted with a bigger system
+- stop condition, dieback condition and HMI integration needs to be worked on
+
+- removed a lot of unnecessary variables from the system state datablock
+- fixed stop condition by adding sensor control function block to it
+- saved the progress so far and started V5.3
+----
+- sir suggested to use a DB with structs to transmit the data to a HMI which is a good idea
+- use underscores and not spaces
+----
+- added a motor fault which triggers when the motor is supposed to be active but there's no feedback from the encoders
+- basic HMI implementation -it displays the running/stopped of each conveyor
