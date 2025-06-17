@@ -86,3 +86,24 @@ the stop condition needs some fixing
 ----
 - added a motor fault which triggers when the motor is supposed to be active but there's no feedback from the encoders
 - basic HMI implementation -it displays the running/stopped of each conveyor
+
+##### 12 June
+- the HMI conveyor elements turn yellow when there's a fault
+- added a timer to the HMI that shows the conveyor delay left
+- fixed a bug where start -> stop condition would stop the conveyor too quickly
+- implemented fault condition -it's total chaos. it's a mess
+##### 16 June
+- fixed the fault condition.
+- added a low power mode condition to each conveyor
+- added blue color which indicates that a conveyor is in low power mode
+- there is a bug where system goes into fault condition sometimes when starting
+- saved progress and started v5.4
+- added more logic for lamp control network to include low power mode
+- added low power mode to conveyor motor condition -it shows as blue in the HMI
+- cleared the fault condition during start up bug by just adding a long delay 
+- new bug where the hmi does not show blue conveyors when the system is in low power mode
+- fixed the above bug by adding a delay to the reset button
+
+- i messed up the lamp control logic a bit by not reading through what chatgpt gave me. gotta fix that
+- need to optimize the program a bit, compress logic into function blocks a bit for the next version
+- need to implement this on a bigger conveyor system

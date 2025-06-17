@@ -1,15 +1,0 @@
-þÿÿÿ«###id###VisulizationRootBrowsableId###TargetIdNameText.0Text.1
-AlarmClass-###SearchableNonTechnicalFieldNamesOfDocument###ParentIds###ImmediateParentId###ReferenceFieldIdsDisplayName###SearchFilterIdsTitleLanguageVersion###UpdatableParentIdInterfaceMember_NameInterfaceMember_DatatypeInterfaceMember_ValueInterfaceMember_CommentSCL CodeConstant nameEvent classNetwork titleLADFBD CodeCommentDatatypeAddressValue###ReconstitutionDataIDAssociatedCultureFieldIdAssociatedProjectVersion!AssociatedIndexDataVersionFieldId,AssociatedTechnicalFieldNamesHashCodeFieldId-AssociatedTechnicalFieldContentVersionFieldIdIndexAtomStoreAuthorFamilyUser-defined IDInstance DBText.2AcknowledgementModelIdAcknowledgedText
-ComingText	GoingTextAcknowledgementGroupTextInvalidAttempts	ValidDaysWarningDaysGenerationsMinNumPsswd	CycleUnit	CycleTimeTextNumber	ShortName
-LogoutTimeTagAddressPanelInfoAcquisitionTriggerModeAcquisitionCycleDataTypeCodingPlcNameControllerTagLimitHighConstantLimitLowConstant	JobNumber
-StartValue	BackColor	GridColorAlarmSourceButtonBackColorButtonBackFillStyleButtonBarStyleButtonBorderBackColorButtonBorderColorButtonEdgeStyleButtonFirstGradientColorButtonMiddleGradientColorButtonSecondGradientColorCaptionColumnTextAckGroupColumnTextAlarmStateColumnTextAlarmTextColumnTextClassNameColumnTextDateColumnTextDeviceColumnTextDiagnosableColumnTextNumberColumnTextTime
-FocusColorGridlineColorSelectionBackColorSelectionForeColorSortByTimeDirectionTableBackColorTableEvenRowBackColor	TableFontTableForeColorTableHeaderBackColorTableHeaderBackFillStyleTableHeaderBorderBackColorTableHeaderBorderColorTableHeaderEdgeStyleTableHeaderFirstGradientColorTableHeaderFontTableHeaderForeColorTableHeaderMiddleGradientColorTableHeaderSecondGradientColor	FunctionsBackFillStyleBorderBackColorBorderColor	EdgeStyleFirstGradientColorFont	ForeColorHorizontalAlignmentHorizontalPictureAlignmentLayerMiddleGradientColorModePictureAutoSizing	PictureOnSecondGradientColorTextOffTextOnTextOrientationVerticalAlignmentVerticalPictureAlignmentAboveUpperLimitColorBelowLowerLimitColorEvenRowBackColorSelectBackColorSelectForeColorTextListPropertyNameTagValueForPropertyTagPageAdaptPicture
-AutoSizingPictureTemplateFlashingUITypeEditorBitPositionCommonAlarmClassStationNamePartnerNameNodeNameRangeFromTo
-DataFormatFormatPatternUnitAddressAccessMode
-ConnectionUITypeEditorTagExpressionConfirmationTypeLimitHighLowConstantLimitLowHighConstant
-LineColor1
-LineColor2OperatableAreaColor
-VisibilityTransparentColor
-FilterTextViewTypeEmailAddress
-ServerName
-PortNumberWindowsDomain
