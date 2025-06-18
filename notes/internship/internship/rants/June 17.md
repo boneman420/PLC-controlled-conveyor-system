@@ -45,3 +45,35 @@ We'll rederive expressions for:
 | 1   | 1   | 0   | 1   | x   | x   | x   | x   |
 | 1   | 1   | 1   | 0   | 0   | 1   | 0   | 0   |
 | 1   | 1   | 1   | 1   | 1   | 0   | 1   | 0   |
+F = ABC
+Q = AC'
+S = DAC+A'B'
+T= BA'
+
+(verified)
+
+---
+lamp control logic:
+- inputs: system start stop memory,
+		all conveyors running,
+		conveyors running,
+		low power mode,
+		fault flag
+- outputs: start, fault, stop
+
+conveyor control logic:
+- in start condition:
+	- inputs: (clearance delay off: belt delay, succeeding conveyor running feedback)
+	- outputs: delay
+- in low power condition:
+	- inputs: (sensor control: belt delay, preceding sensor)
+	- outputs: %% delay %%
+- in stop condition:
+	- inputs: (sensor control: belt delay, preceding sensor), (clearance delay off: belt delay, preceding conveyor running feedback), low power mode
+	- outputs: delay
+- in fault condition:
+	- inputs: (sensor control: belt delay, preceding sensor), succeeding conveyor fault feedback out
+	- outputs: delay
+
+so each conveyor has a sensor control block and a timer block before enable
+

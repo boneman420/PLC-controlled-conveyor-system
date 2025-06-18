@@ -107,3 +107,72 @@ the stop condition needs some fixing
 - i messed up the lamp control logic a bit by not reading through what chatgpt gave me. gotta fix that
 - need to optimize the program a bit, compress logic into function blocks a bit for the next version
 - need to implement this on a bigger conveyor system
+
+##### 17 June
+- fixed lamp control logic
+- system is not going into fault condition properly
+- fixed the fault condition bug
+
+- when resetting fault condition the conveyors forget the objects on them and are dependant on the sensor to come move them -this can be solved by activating the conveyor for some time when there's a falling edge on reset button
+- need to build standard test cases
+
+- saved the progress and started v6
+- renamed everything to use underscores instead of spaces
+- compressed lamp control logic into one function block
+- saved the progress and started v6.1
+---
+new changes:
+- combine all the conditions into the conveyor FB (like the real program sir showed)
+- start condition should start with a constant 1 second delay
+- each conveyor should have it's own on and off timer
+---
+- trying to make the new compressed system.
+##### 18 June
+- compressed all logic in each condition intro the conveyor control FB
+- compressing the main loop FC logic
+- optimized the main loop FC logic by a lot
+- saving progress and started v6.2
+- need to define standard test cases
+- figured out something where i can define system states and all the control blocks can be controlled using system states. also discovered word logic operations
+- standard cases defined (WITHOUT BAGGAGE). now need to test the current system against the standard cases and fix the system so far.
+---
+- im gonna have to remake the conveyor control FB. im gonna have to remake the entire program once. most of these test conditions will fail.
+
+---
+- cancel plans. the presentation is tomorrow at 4pm. need to find the most stable version and do bug fixes on it
+
+
+- removed sensor control from stop logic
+- made on delay and off delay of conveyor control retain it's values
+- added logic to remove the need for a low power switch
+---
+- fixed a lot of bugs and made the required changes for tomorrow's session
+- start to low power still has a bug where the conveyors forget the sensor value before
+- mostly fixed that bug but it doesnt show the 1s delay on hmi in start condition
+- saved progress and started v6.3
+- compressed fault set reset logic into the conveyor blocks
+- lamp logic got messed up. need to fix that
+	- that lamp logic took me almost half an hour to fix, because the problem was rooted deep. whenever you wanna use set reset in an FB always use inout or static. sigh.
+
+- **version 6.3 is the most stable version so far** 
+- saved progress and started v6.4
+- compressed all the system control networks into one FB
+- saved this progress and started v6.5
+- compressed conveyor control condition logic into conveyor FB
+- organized everything into folder groups
+- start to stop is not working properly
+- fixed the above
+- added HMI connections properly
+- cascaded stop not working as intended but it's okay
+
+tomorrow:
+before lunch:
+- get ppt reviewed
+- type out what to speak
+after lunch
+- practice for the meeting
+throughout:
+- program:
+	- add useful indicators to HMI instead of low power mode and all conveyors running
+	- implement this into a bigger system with at least 10-15 conveyors and a carousel
+	- maybe fix the cascaded stop issue
